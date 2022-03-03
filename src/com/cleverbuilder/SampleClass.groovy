@@ -8,4 +8,16 @@ class SampleClass {
    def increaseAge(Integer years) {
       this.age += years
    }
+   
+   String envi(String env){
+   
+      if(env.equals("prod")){
+       return "yes"  
+      }
+      else
+      {
+       return "no"  
+      }
+   }
+   
 }
